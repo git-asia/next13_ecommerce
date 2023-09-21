@@ -73,7 +73,7 @@
 	},
 	"overrides": [
 		{
-			"files": ["src/app/**/*.ts?(x)", "tailwind.config.ts"],
+			"files": ["src/app/**/*.ts?(x)", "tailwind.config.js"],
 			"rules": {
 				"import/no-default-export": "off"
 			}
