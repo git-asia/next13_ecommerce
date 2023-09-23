@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Page2() {
     return <div>
-        Strona 2
+        Page 2
         <br/>
-			<Link href="/1">Przejdź na stronę 1</Link>
+			<Link href="/1" className="text-blue-600">Go to page 1</Link>
         </div>;
   }
